@@ -1,0 +1,15 @@
+bin/*.bin
+
+bin/*.elf
+
+bin/*.hex
+
+bin/*.list
+
+bin/*.srec
+
+*.cbTemp
+
+*.d
+*.o
+*.ld

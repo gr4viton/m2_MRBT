@@ -46,6 +46,11 @@
 			</Target>
 		</Build>
 		<Unit filename="Makefile" />
+		<Unit filename="include/LCD_HD44780.h" />
+		<Unit filename="include/dev_LCD_HD44780.h" />
+		<Unit filename="include/dev_serial.h" />
+		<Unit filename="include/dev_ultrasonic.h" />
+		<Unit filename="include/led_f4.h" />
 		<Unit filename="include/main.h" />
 		<Unit filename="include/primitives/llist.h" />
 		<Unit filename="include/primitives/ringbuf.h" />
@@ -867,6 +872,21 @@
 		<Unit filename="mk/common.mk" />
 		<Unit filename="mk/libopencm3-config.mk" />
 		<Unit filename="mk/libopencm3-rules.mk" />
+		<Unit filename="src/LCD_HD44780.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dev_LCD_HD44780.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dev_serial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dev_ultrasonic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/led_f4.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="src/main.c">
 			<Option compilerVar="CC" />
 		</Unit>
